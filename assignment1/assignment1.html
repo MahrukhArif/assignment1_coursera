@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <script src="angular.min.js"></script>
+        <script src="assignment1.js"></script>
+
+        <title>assignment 1 angular js</title>
+        <style>
+            p{
+              color:green;  
+            }
+        </style>
+    </head>
+    <body>
+        <h1>assignment 1</h1>
+  <div ng-controller="myAppController">
+    <input type="text" ng-model="name">
+    <br>
+    <br>
+    <button ng-click="writeLine()">check if too much</button>
+    <br>
+     <p>{{comment}}</p>
+
+  </div>
+  </body>
+
+</html>
